@@ -1,0 +1,169 @@
+body {
+	background-image: url(../img/bg.jpg);	
+}
+
+@media(min-width:980px) {
+body {
+	padding-top: 60px;	
+}
+}
+
+.rtl {
+	direction: rtl;
+}
+
+.ltr {
+	direction: ltr;
+}
+input.search-library {
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+}
+.bold {
+	font-weight: bold;
+}
+.pagination {
+	margin: 10px 0;
+}
+.pagination a {
+	border: none;
+}
+h1 {
+	text-shadow: #333 2px 2px 4px;
+	margin-bottom: 25px;
+}
+h1, h2, h3 {
+	font-family: tahoma, sans-serif;
+}
+h3 [class^="icon-"], [class*=" icon-"] {
+ margin-top:4px;
+}
+.estante {
+	background-repeat: repeat-y;
+}
+.estante .thumbnail {
+	border: none;
+}
+ @media (max-width: 768px) {
+.estante {
+	background-image: url(../img/bg2c.png);
+	background-position: 0px -23px;
+}
+.estante li {
+	margin-bottom: 42px;
+	margin-left: 66px;
+	float: right;	
+}
+}
+@media (min-width: 768px) {
+.estante {
+	background-image: url(../img/bg2b.png);
+	background-position: 10px 2px;
+	background-size: 99%;
+}
+.estante li {
+	margin-bottom: 16px;
+	margin-left: 66px;
+	float: right;
+}
+}
+@media (min-width: 979px) {
+.estante {
+	background-image: url(../img/bg2.png);
+	background-position: 10px 2px;
+	background-size: 100%;
+}
+.estante li {
+	margin-bottom: 19px;
+	margin-left: 45px;
+	float: right;
+}
+}
+@media (min-width: 1200px) {
+.estante {
+	background-image: url(../img/bg2.png);
+	background-position: 10px 0px;
+}
+.estante li {
+	margin-bottom: 29px;
+	margin-left: 28px;
+	float: right;
+}
+}
+.footer {
+	margin-top: 0;
+}
+.footer-inner {
+	padding: 15px 0;
+	font-size: 12px;
+	color: #333;
+	text-align: center;
+}
+.footer a {
+	color: #333;
+}
+.footer a:hover {
+	color: #CCC;
+	text-shadow: #FFF 0px 0px 20px;
+	text-decoration: none;
+}
+.breadcrumb {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.breadcrumb li {
+	text-shadow: 1px 1px 3px #CCC;
+}
+.book, .users {
+	margin: 50px auto;
+    	width: 50%;
+    	min-height: 300px;
+ }
+#index-books {
+    	min-height: 400px;
+}
+.book p {
+	padding: 12px 38px 0 0;
+}
+.book-text {
+	margin:0;
+	float: right;
+}
+.book-text li {
+ 	background: url("../img/text_li.jpg") no-repeat;
+ 	float: right;
+ 	height: 48px;
+ 	margin: 0 10px 5px 0;
+ 	overflow: hidden;
+ 	width: 272px;
+}
+.dl-book {
+	margin: 8px 24px 0 0;
+	float: right;
+}
+.users-table tr:first-child{
+	font-weight: bold;
+}
+.users-table td {
+	background-color: #FCFCFC;
+	border: 1px solid #EAEAEA;
+	padding: 8px;	
+}
+.users-table a {	
+    color: #0088CC;
+    text-decoration: none;
+}
+.inline {
+	display:inline;
+}
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+#edit_user input, #edit_book input {
+	font-size: 12px;
+}
